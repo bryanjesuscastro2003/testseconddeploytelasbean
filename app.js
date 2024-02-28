@@ -19,7 +19,7 @@ app.post('/api/data', (req, res) => {
 })
 
 
-app.listen(3000, () => {
+app.listen(80, () => {
     console.log('Server 2 is running on port 80');
 })
 
